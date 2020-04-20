@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="KinematicsTests:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5112c10b-7397-4c6b-9055-d122cd38cde7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1adxFuoc8aFaWPIFXgV6y3BGo63" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ComputeIK2">
+    <configuration name="ComputeIK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComputeIK" />
+      <module name="KinematicsTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputeKine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ComputeKine" />
+      <module name="KinematicsTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ComputeIK2" />
+        <item itemvalue="Application.ComputeKine" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5112c10b-7397-4c6b-9055-d122cd38cde7" name="Default Changelist" comment="" />
+      <created>1587079171973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587079171973</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1150" y="520" key="#com.intellij.ide.util.MemberChooser" timestamp="1587321325016">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="1150" y="520" key="#com.intellij.ide.util.MemberChooser/0.23.2560.1577@0.23.2560.1577" timestamp="1587321325016" />
+    <state x="1241" y="604" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587155078016">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="1241" y="604" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587155078016" />
+    <state x="1250" y="711" key="Github.ShareDialog" timestamp="1587342768479">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="1250" y="711" key="Github.ShareDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342768479" />
+    <state x="1173" y="513" key="Github.UntrackedFilesDialog" timestamp="1587342802959">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="1173" y="513" key="Github.UntrackedFilesDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342802959" />
+    <state width="1413" height="236" key="GridCell.Tab.0.bottom" timestamp="1587342555523">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="236" key="GridCell.Tab.0.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
+    <state width="1413" height="236" key="GridCell.Tab.0.center" timestamp="1587342555523">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="236" key="GridCell.Tab.0.center/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
+    <state width="1413" height="236" key="GridCell.Tab.0.left" timestamp="1587342555522">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="236" key="GridCell.Tab.0.left/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555522" />
+    <state width="1413" height="236" key="GridCell.Tab.0.right" timestamp="1587342555523">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="236" key="GridCell.Tab.0.right/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
+    <state width="1413" height="273" key="GridCell.Tab.1.bottom" timestamp="1587341509113">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="273" key="GridCell.Tab.1.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1587341509113" />
+    <state width="1413" height="273" key="GridCell.Tab.1.center" timestamp="1587341509112">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="273" key="GridCell.Tab.1.center/0.23.2560.1577@0.23.2560.1577" timestamp="1587341509112" />
+    <state width="1413" height="273" key="GridCell.Tab.1.left" timestamp="1587341509112">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="273" key="GridCell.Tab.1.left/0.23.2560.1577@0.23.2560.1577" timestamp="1587341509112" />
+    <state width="1413" height="273" key="GridCell.Tab.1.right" timestamp="1587341509113">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="273" key="GridCell.Tab.1.right/0.23.2560.1577@0.23.2560.1577" timestamp="1587341509113" />
+    <state x="991" y="388" key="SettingsEditor" timestamp="1587342738081">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="991" y="388" key="SettingsEditor/0.23.2560.1577@0.23.2560.1577" timestamp="1587342738081" />
+    <state x="769" y="123" width="1255" height="1368" key="dock-window-1" timestamp="1587323474860">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="769" y="123" width="1255" height="1368" key="dock-window-1/0.23.2560.1577@0.23.2560.1577" timestamp="1587323474860" />
+  </component>
+</project>
