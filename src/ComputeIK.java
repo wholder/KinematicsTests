@@ -28,11 +28,11 @@ public class ComputeIK extends JPanel {
   private boolean updateIk (Point2D target) {
     double targetX = target.getX();
     double targetY = target.getY();
-    double angle2;
-    double targetDistSqr = (targetX * targetX + targetY * targetY);
-    double sinAngle2;
-    double cosAngle2;
+    double angle2 = 0.0;
+    double sinAngle2 = 0.0;
+    double cosAngle2 = 1.0;
     double cosAngle2_denom = 2 * upper.length * lower.length;
+    double targetDistSqr = (targetX * targetX + targetY * targetY);
     if (cosAngle2_denom > epsilon) {
       cosAngle2 = (targetDistSqr - upper.length * upper.length - lower.length * lower.length) / (cosAngle2_denom);
       // if our result is not in the legal cosine range, we can not find a legal solution for the target
@@ -51,10 +51,6 @@ public class ComputeIK extends JPanel {
       if (targetDistSqr < (totalLenSqr - epsilon) || targetDistSqr > (totalLenSqr + epsilon)) {
         return  false;
       }
-      // Only the value of angle1 matters at this point. We can just set angle2 to zero.
-      angle2 = 0.0;
-      cosAngle2 = 1.0;
-      sinAngle2 = 0.0;
     }
     // Compute the value of angle1 based on the sine and cosine of angle2
     double triAdjacent = upper.length + lower.length * cosAngle2;
@@ -225,7 +221,7 @@ public class ComputeIK extends JPanel {
   }
 
   JSlider getZoomSlider () {
-    reach = new JSlider(JSlider.VERTICAL, 1, 100, 50);
+    reach = new JSlider(JSlider.VERTICAL, 0, 100, 50);
     reach.setForeground(Color.BLACK);
     reach.setMajorTickSpacing(10);
     reach.setMinorTickSpacing(1);
@@ -234,9 +230,9 @@ public class ComputeIK extends JPanel {
     reach.addChangeListener(ev -> {
       if (!mouseDown && !noReach) {
         reaching = true;
-        int value = reach.getValue();
+        double value = reach.getValue() + epsilon;
         Point2D end = getEndPoint();
-        end = end.multiply(((double) value / 100d));
+        end = end.multiply(value / 100d);
         updateIk(end);
         reaching = false;
         repaint();
@@ -257,7 +253,7 @@ public class ComputeIK extends JPanel {
     ComputeIK view = new ComputeIK();
     frame.add(view, BorderLayout.CENTER);
     JPanel controls = new JPanel(new GridLayout(1,3));
-    JSlider j1 = view.upper.getSlider(view, 0, 360);
+    JSlider j1 = view.upper.getSlider(view, -180, 180);
     JSlider j2 = view.lower.getSlider(view, -180, 180);
     controls.add(addLegend(j1, "Upper"));
     controls.add(addLegend(j2, "Lower"));
