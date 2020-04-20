@@ -8,5 +8,5 @@ KinematicsTests requires the Java 8 JRE, or later.  There is a [**Runnable JAR f
 ### License
 I'm publishing this source code under the MIT License (See: https://opensource.org/licenses/MIT)
 ## Credits
- = Adapted from "[Analytic Two-Bone IK in 2D](http://www.ryanjuckett.com/programming/analytic-two-bone-ik-in-2d/)" by Ryan Juckett
+ - Adapted from "[Analytic Two-Bone IK in 2D](http://www.ryanjuckett.com/programming/analytic-two-bone-ik-in-2d/)" by Ryan Juckett
  - [IntelliJ IDEA from JetBrains](https://www.jetbrains.com/idea/) (my favorite development environment for Java coding. Thanks JetBrains!)
