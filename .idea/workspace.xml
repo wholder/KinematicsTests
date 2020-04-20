@@ -6,7 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5112c10b-7397-4c6b-9055-d122cd38cde7" name="Default Changelist" comment="" />
+    <list default="true" id="5112c10b-7397-4c6b-9055-d122cd38cde7" name="Default Changelist" comment="Rename Zoom to Reach">
+      <change beforePath="$PROJECT_DIR$/src/ComputeIK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComputeIK.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,30 +92,34 @@
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
     <state x="1241" y="604" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587155078016" />
-    <state x="1250" y="711" key="Github.ShareDialog" timestamp="1587342768479">
+    <state x="984" y="393" key="CommitChangelistDialog2" timestamp="1587343148325">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state x="1250" y="711" key="Github.ShareDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342768479" />
-    <state x="1173" y="513" key="Github.UntrackedFilesDialog" timestamp="1587342802959">
+    <state x="984" y="393" key="CommitChangelistDialog2/0.23.2560.1577@0.23.2560.1577" timestamp="1587343148325" />
+    <state x="1250" y="711" key="Github.ShareDialog" timestamp="1587342943167">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state x="1173" y="513" key="Github.UntrackedFilesDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342802959" />
-    <state width="1413" height="236" key="GridCell.Tab.0.bottom" timestamp="1587342555523">
+    <state x="1250" y="711" key="Github.ShareDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342943167" />
+    <state x="1173" y="513" key="Github.UntrackedFilesDialog" timestamp="1587342959366">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1413" height="236" key="GridCell.Tab.0.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
-    <state width="1413" height="236" key="GridCell.Tab.0.center" timestamp="1587342555523">
+    <state x="1173" y="513" key="Github.UntrackedFilesDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1587342959366" />
+    <state width="1413" height="236" key="GridCell.Tab.0.bottom" timestamp="1587343065608">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1413" height="236" key="GridCell.Tab.0.center/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
-    <state width="1413" height="236" key="GridCell.Tab.0.left" timestamp="1587342555522">
+    <state width="1413" height="236" key="GridCell.Tab.0.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1587343065608" />
+    <state width="1413" height="236" key="GridCell.Tab.0.center" timestamp="1587343065607">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1413" height="236" key="GridCell.Tab.0.left/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555522" />
-    <state width="1413" height="236" key="GridCell.Tab.0.right" timestamp="1587342555523">
+    <state width="1413" height="236" key="GridCell.Tab.0.center/0.23.2560.1577@0.23.2560.1577" timestamp="1587343065607" />
+    <state width="1413" height="236" key="GridCell.Tab.0.left" timestamp="1587343065607">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1413" height="236" key="GridCell.Tab.0.right/0.23.2560.1577@0.23.2560.1577" timestamp="1587342555523" />
+    <state width="1413" height="236" key="GridCell.Tab.0.left/0.23.2560.1577@0.23.2560.1577" timestamp="1587343065607" />
+    <state width="1413" height="236" key="GridCell.Tab.0.right" timestamp="1587343065608">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state width="1413" height="236" key="GridCell.Tab.0.right/0.23.2560.1577@0.23.2560.1577" timestamp="1587343065608" />
     <state width="1413" height="273" key="GridCell.Tab.1.bottom" timestamp="1587341509113">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>

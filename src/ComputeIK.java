@@ -22,8 +22,8 @@ public class ComputeIK extends JPanel {
   private final Bone              upper;              // Upper arm
   private final Bone              lower;              // Lower Arm
   private final double            armLength;
-  private       JSlider           zoom;
-  private       boolean           mouseDown, zooming, noZoom;
+  private       JSlider           reach;
+  private       boolean           mouseDown, reaching, noReach;
 
   private boolean updateIk (Point2D target) {
     double targetX = target.getX();
@@ -99,7 +99,7 @@ public class ComputeIK extends JPanel {
       slider.setPaintLabels(true);
       slider.setSnapToTicks(true);
       slider.addChangeListener(ev -> {
-        if (!mouseDown && !zooming) {
+        if (!mouseDown && !reaching) {
           setAngle(slider.getValue());
           updateZoomSlider();
           view.repaint();
@@ -180,14 +180,14 @@ public class ComputeIK extends JPanel {
   }
 
   void updateZoomSlider () {
-    noZoom = true;
+    noReach = true;
     Point2D end = upper.getEndOffset();
     end = end.add(lower.getEndOffset());
     double value = end.magnitude();
     value /= armLength;
     value *= 100;
-    zoom.setValue((int) value);
-    noZoom = false;
+    reach.setValue((int) value);
+    noReach = false;
   }
 
   ComputeIK () {
@@ -225,24 +225,24 @@ public class ComputeIK extends JPanel {
   }
 
   JSlider getZoomSlider () {
-    zoom = new JSlider(JSlider.VERTICAL, 1, 100, 50);
-    zoom.setForeground(Color.BLACK);
-    zoom.setMajorTickSpacing(10);
-    zoom.setMinorTickSpacing(1);
-    zoom.setPaintTicks(true);
-    zoom.setPaintLabels(true);
-    zoom.addChangeListener(ev -> {
-      if (!mouseDown && !noZoom) {
-        zooming = true;
-        int value = zoom.getValue();
+    reach = new JSlider(JSlider.VERTICAL, 1, 100, 50);
+    reach.setForeground(Color.BLACK);
+    reach.setMajorTickSpacing(10);
+    reach.setMinorTickSpacing(1);
+    reach.setPaintTicks(true);
+    reach.setPaintLabels(true);
+    reach.addChangeListener(ev -> {
+      if (!mouseDown && !noReach) {
+        reaching = true;
+        int value = reach.getValue();
         Point2D end = getEndPoint();
         end = end.multiply(((double) value / 100d));
         updateIk(end);
-        zooming = false;
+        reaching = false;
         repaint();
       }
     });
-    return zoom;
+    return reach;
   }
 
   private static JPanel addLegend (JComponent comp, String legend) {
@@ -261,7 +261,7 @@ public class ComputeIK extends JPanel {
     JSlider j2 = view.lower.getSlider(view, -180, 180);
     controls.add(addLegend(j1, "Upper"));
     controls.add(addLegend(j2, "Lower"));
-    controls.add(addLegend(view.getZoomSlider(), "Zoom"));
+    controls.add(addLegend(view.getZoomSlider(), "Reach"));
     view.updateZoomSlider();
     frame.add(controls, BorderLayout.EAST);
     frame.pack();
