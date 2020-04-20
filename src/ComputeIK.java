@@ -230,7 +230,7 @@ public class ComputeIK extends JPanel {
     reach.addChangeListener(ev -> {
       if (!mouseDown && !noReach) {
         reaching = true;
-        double value = reach.getValue() + epsilon;
+        double value = reach.getValue() + 1;
         Point2D end = getEndPoint();
         end = end.multiply(value / 100d);
         updateIk(end);
